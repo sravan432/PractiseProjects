@@ -11,7 +11,12 @@
         },
         "@schematics/angular:application": {
           "strict": true
-        }
+        },
+        {
+        "glob": "_redirects",
+        "input": "src",
+        "output": "/"
+      }
       },
       "root": "",
       "sourceRoot": "src",
